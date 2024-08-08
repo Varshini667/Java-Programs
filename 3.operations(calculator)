@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+class Main
+{
+     public static void main (String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int calculator=sc.nextInt();
+        switch(calculator)
+        {
+            case 1:
+                calculator=a+b;
+                System.out.println(calculator);
+                break;
+            case 2:
+                calculator=a-b;
+                System.out.println(calculator);
+                break;
+            case 3:
+                calculator=a*b;
+                System.out.println(calculator);
+                break;
+            default:
+            System.out.println("invalid input");
+            break;
+        }
+    }
+}
